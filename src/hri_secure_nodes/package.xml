@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>hri_secure_nodes</name>
+  <version>1.0.0</version>
+  <description>
+    Mock HRI nodes for InfoSec project: Secure Intent Fusion
+    in Edge-Deployed ROS2 Ecosystems using SROS2.
+  </description>
+  <maintainer email="student@eng.ruh.ac.lk">HRI Team</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

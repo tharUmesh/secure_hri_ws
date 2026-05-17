@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (hri_secure_nodes) JobQueued: {'identifier': 'hri_secure_nodes', 'dependencies': OrderedDict()}
+[0.001176] (hri_secure_nodes) JobStarted: {'identifier': 'hri_secure_nodes'}
+[0.099064] (-) TimerEvent: {}
+[0.199514] (-) TimerEvent: {}
+[0.299966] (-) TimerEvent: {}
+[0.400321] (-) TimerEvent: {}
+[0.500680] (-) TimerEvent: {}
+[0.601033] (-) TimerEvent: {}
+[0.701413] (-) TimerEvent: {}
+[0.801810] (-) TimerEvent: {}
+[0.902233] (-) TimerEvent: {}
+[1.002599] (-) TimerEvent: {}
+[1.103033] (-) TimerEvent: {}
+[1.203693] (-) TimerEvent: {}
+[1.304310] (-) TimerEvent: {}
+[1.404857] (-) TimerEvent: {}
+[1.505320] (-) TimerEvent: {}
+[1.605683] (-) TimerEvent: {}
+[1.706023] (-) TimerEvent: {}
+[1.806429] (-) TimerEvent: {}
+[1.906829] (-) TimerEvent: {}
+[2.007220] (-) TimerEvent: {}
+[2.107652] (-) TimerEvent: {}
+[2.208017] (-) TimerEvent: {}
+[2.308326] (-) TimerEvent: {}
+[2.408624] (-) TimerEvent: {}
+[2.509117] (-) TimerEvent: {}
+[2.609448] (-) TimerEvent: {}
+[2.709830] (-) TimerEvent: {}
+[2.810175] (-) TimerEvent: {}
+[2.910489] (-) TimerEvent: {}
+[3.010830] (-) TimerEvent: {}
+[3.028876] (hri_secure_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tharun/secure_hri_ws/build/hri_secure_nodes/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tharun/secure_hri_ws/build/hri_secure_nodes', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tharun', 'GIT_ASKPASS': '/home/tharun/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tharun', 'OLDPWD': '/home/tharun', 'TERM_PROGRAM_VERSION': '1.120.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-057706c9-3d3a-4b83-a489-5919eabc8c98.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/tharun/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/tharun/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tharun', 'NAME': 'DESKTOP-PPFGVBK', 'WSL_INTEROP': '/run/WSL/19923_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/tharun/.npm-global/bin:/home/tharun/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tharun/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tharun/.vscode-server/bin/0958016b2af9f09bb4257e0df4a95e2f90590f9f/bin/remote-cli:/opt/ros/jazzy/bin:/home/tharun/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/tharu/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft SDKs/Azure/CLI2/wbin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/anaconda3/condabin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Java/jdk-25.0.2/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/tharu/.local/bin:/mnt/c/Users/tharu/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/tharu/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/tharu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tharu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tharu/AppData/Roaming/npm:/mnt/c/Users/tharu/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-527d13c02f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tharun/secure_hri_ws/build/hri_secure_nodes', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tharun/secure_hri_ws/build/hri_secure_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}, 'shell': False}
+[3.110992] (-) TimerEvent: {}
+[3.211410] (-) TimerEvent: {}
+[3.311819] (-) TimerEvent: {}
+[3.412200] (-) TimerEvent: {}
+[3.512596] (-) TimerEvent: {}
+[3.579181] (hri_secure_nodes) StdoutLine: {'line': b'running develop\n'}
+[3.612677] (-) TimerEvent: {}
+[3.713002] (-) TimerEvent: {}
+[3.813432] (-) TimerEvent: {}
+[3.901598] (hri_secure_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[3.901847] (hri_secure_nodes) StdoutLine: {'line': b'creating hri_secure_nodes.egg-info\n'}
+[3.913544] (-) TimerEvent: {}
+[3.936796] (hri_secure_nodes) StdoutLine: {'line': b'writing hri_secure_nodes.egg-info/PKG-INFO\n'}
+[3.940936] (hri_secure_nodes) StdoutLine: {'line': b'writing dependency_links to hri_secure_nodes.egg-info/dependency_links.txt\n'}
+[3.945916] (hri_secure_nodes) StdoutLine: {'line': b'writing entry points to hri_secure_nodes.egg-info/entry_points.txt\n'}
+[3.946896] (hri_secure_nodes) StdoutLine: {'line': b'writing requirements to hri_secure_nodes.egg-info/requires.txt\n'}
+[3.947245] (hri_secure_nodes) StdoutLine: {'line': b'writing top-level names to hri_secure_nodes.egg-info/top_level.txt\n'}
+[3.947434] (hri_secure_nodes) StdoutLine: {'line': b"writing manifest file 'hri_secure_nodes.egg-info/SOURCES.txt'\n"}
+[4.010993] (hri_secure_nodes) StdoutLine: {'line': b"reading manifest file 'hri_secure_nodes.egg-info/SOURCES.txt'\n"}
+[4.011955] (hri_secure_nodes) StdoutLine: {'line': b"writing manifest file 'hri_secure_nodes.egg-info/SOURCES.txt'\n"}
+[4.013627] (-) TimerEvent: {}
+[4.049752] (hri_secure_nodes) StdoutLine: {'line': b'running build_ext\n'}
+[4.050868] (hri_secure_nodes) StdoutLine: {'line': b'Creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages/hri-secure-nodes.egg-link (link to .)\n'}
+[4.052902] (hri_secure_nodes) StdoutLine: {'line': b'Installing context_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes\n'}
+[4.054752] (hri_secure_nodes) StdoutLine: {'line': b'Installing emotion_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes\n'}
+[4.055677] (hri_secure_nodes) StdoutLine: {'line': b'Installing fusion_engine script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes\n'}
+[4.056213] (hri_secure_nodes) StdoutLine: {'line': b'Installing gesture_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes\n'}
+[4.056800] (hri_secure_nodes) StdoutLine: {'line': b'Installing motion_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes\n'}
+[4.057322] (hri_secure_nodes) StdoutLine: {'line': b'Installing rogue_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes\n'}
+[4.058588] (hri_secure_nodes) StdoutLine: {'line': b'\n'}
+[4.059124] (hri_secure_nodes) StdoutLine: {'line': b'Installed /home/tharun/secure_hri_ws/build/hri_secure_nodes\n'}
+[4.059309] (hri_secure_nodes) StdoutLine: {'line': b'running symlink_data\n'}
+[4.059487] (hri_secure_nodes) StdoutLine: {'line': b'creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/ament_index\n'}
+[4.059810] (hri_secure_nodes) StdoutLine: {'line': b'creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/ament_index/resource_index\n'}
+[4.060150] (hri_secure_nodes) StdoutLine: {'line': b'creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/ament_index/resource_index/packages\n'}
+[4.060719] (hri_secure_nodes) StdoutLine: {'line': b'symbolically linking /home/tharun/secure_hri_ws/build/hri_secure_nodes/resource/hri_secure_nodes -> /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/ament_index/resource_index/packages\n'}
+[4.061521] (hri_secure_nodes) StdoutLine: {'line': b'symbolically linking /home/tharun/secure_hri_ws/build/hri_secure_nodes/package.xml -> /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes\n'}
+[4.113811] (-) TimerEvent: {}
+[4.147322] (hri_secure_nodes) CommandEnded: {'returncode': 0}
+[4.205970] (hri_secure_nodes) JobEnded: {'identifier': 'hri_secure_nodes', 'rc': 0}
+[4.207816] (-) EventReactorShutdown: {}

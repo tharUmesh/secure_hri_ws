@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hri-secure-nodes
+Version: 1.0.0
+Summary: Secure HRI mock nodes for InfoSec course project
+Maintainer: HRI Team
+Maintainer-email: student@eng.ruh.ac.lk
+License: MIT

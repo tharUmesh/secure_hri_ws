@@ -1,0 +1,35 @@
+Emotion Certificate:
+openssl x509 \
+  -in ~/secure_hri_ws/keystore/enclaves/emotion_node/cert.pem \
+  -noout -text | grep -A4 "Subject\|Issuer\|Validity"
+
+Rebuild:
+cd ~/secure_hri_ws
+colcon build --symlink-install
+source install/setup.bash
+
+# ── ACT 1: Show the vulnerability ──────────────────────────────
+
+Main demo(terminal 1):
+
+ros2 launch hri_secure_nodes baseline_demo.launch.py
+
+(terminal 2):
+# With security OFF, the rogue node connects freely
+
+export ROS_SECURITY_ENABLE=false
+ros2 run hri_secure_nodes rogue_node
+
+# ── ACT 2: Activate SROS2 security ─────────────────────────────
+
+(terminal 1):
+ros2 launch hri_secure_nodes secure_demo.launch.py
+
+(terminal 2):
+# Rogue node now has NO certificate — it cannot join
+
+ros2 run hri_secure_nodes rogue_node
+
+# ── ACT 3: Non-repudiation evidence ───────────────────────────
+
+cat ~/secure_hri_ws/logs/audit_*.log | head -30

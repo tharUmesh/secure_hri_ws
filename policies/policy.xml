@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy version="0.2.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <enclaves>
+
+    <!-- EMOTION NODE: publish /hri/emotion only -->
+    <enclave path="/emotion_node">
+      <profiles>
+        <profile ns="/" node="emotion_node">
+          <topics publish="ALLOW" subscribe="DENY">
+            <topic>hri/emotion</topic>
+          </topics>
+          <topics publish="ALLOW" subscribe="ALLOW">
+            <topic>rosout</topic>
+            <topic>parameter_events</topic>
+          </topics>
+          <services reply="ALLOW" request="ALLOW">
+            <service>emotion_node/describe_parameters</service>
+            <service>emotion_node/get_parameter_types</service>
+            <service>emotion_node/get_parameters</service>
+            <service>emotion_node/list_parameters</service>
+            <service>emotion_node/set_parameters</service>
+            <service>emotion_node/set_parameters_atomically</service>
+          </services>
+        </profile>
+      </profiles>
+    </enclave>
+
+    <!-- GESTURE NODE: publish /hri/gesture only -->
+    <enclave path="/gesture_node">
+      <profiles>
+        <profile ns="/" node="gesture_node">
+          <topics publish="ALLOW" subscribe="DENY">
+            <topic>hri/gesture</topic>
+          </topics>
+          <topics publish="ALLOW" subscribe="ALLOW">
+            <topic>rosout</topic>
+            <topic>parameter_events</topic>
+          </topics>
+          <services reply="ALLOW" request="ALLOW">
+            <service>gesture_node/describe_parameters</service>
+            <service>gesture_node/get_parameter_types</service>
+            <service>gesture_node/get_parameters</service>
+            <service>gesture_node/list_parameters</service>
+            <service>gesture_node/set_parameters</service>
+            <service>gesture_node/set_parameters_atomically</service>
+          </services>
+        </profile>
+      </profiles>
+    </enclave>
+
+    <!-- MOTION NODE: publish /hri/motion only -->
+    <enclave path="/motion_node">
+      <profiles>
+        <profile ns="/" node="motion_node">
+          <topics publish="ALLOW" subscribe="DENY">
+            <topic>hri/motion</topic>
+          </topics>
+          <topics publish="ALLOW" subscribe="ALLOW">
+            <topic>rosout</topic>
+            <topic>parameter_events</topic>
+          </topics>
+          <services reply="ALLOW" request="ALLOW">
+            <service>motion_node/describe_parameters</service>
+            <service>motion_node/get_parameter_types</service>
+            <service>motion_node/get_parameters</service>
+            <service>motion_node/list_parameters</service>
+            <service>motion_node/set_parameters</service>
+            <service>motion_node/set_parameters_atomically</service>
+          </services>
+        </profile>
+      </profiles>
+    </enclave>
+
+    <!-- CONTEXT NODE: publish /hri/context only -->
+    <enclave path="/context_node">
+      <profiles>
+        <profile ns="/" node="context_node">
+          <topics publish="ALLOW" subscribe="DENY">
+            <topic>hri/context</topic>
+          </topics>
+          <topics publish="ALLOW" subscribe="ALLOW">
+            <topic>rosout</topic>
+            <topic>parameter_events</topic>
+          </topics>
+          <services reply="ALLOW" request="ALLOW">
+            <service>context_node/describe_parameters</service>
+            <service>context_node/get_parameter_types</service>
+            <service>context_node/get_parameters</service>
+            <service>context_node/list_parameters</service>
+            <service>context_node/set_parameters</service>
+            <service>context_node/set_parameters_atomically</service>
+          </services>
+        </profile>
+      </profiles>
+    </enclave>
+
+    <!-- FUSION ENGINE: subscribe to all four /hri/* topics only -->
+    <enclave path="/fusion_engine_node">
+      <profiles>
+        <profile ns="/" node="fusion_engine_node">
+          <topics publish="DENY" subscribe="ALLOW">
+            <topic>hri/emotion</topic>
+            <topic>hri/gesture</topic>
+            <topic>hri/motion</topic>
+            <topic>hri/context</topic>
+          </topics>
+          <topics publish="ALLOW" subscribe="ALLOW">
+            <topic>rosout</topic>
+            <topic>parameter_events</topic>
+          </topics>
+          <services reply="ALLOW" request="ALLOW">
+            <service>fusion_engine_node/describe_parameters</service>
+            <service>fusion_engine_node/get_parameter_types</service>
+            <service>fusion_engine_node/get_parameters</service>
+            <service>fusion_engine_node/list_parameters</service>
+            <service>fusion_engine_node/set_parameters</service>
+            <service>fusion_engine_node/set_parameters_atomically</service>
+          </services>
+        </profile>
+      </profiles>
+    </enclave>
+
+  </enclaves>
+</policy>

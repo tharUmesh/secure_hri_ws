@@ -1,0 +1,7 @@
+[console_scripts]
+context_node = hri_secure_nodes.context_node:main
+emotion_node = hri_secure_nodes.emotion_node:main
+fusion_engine = hri_secure_nodes.fusion_engine_node:main
+gesture_node = hri_secure_nodes.gesture_node:main
+motion_node = hri_secure_nodes.motion_node:main
+rogue_node = hri_secure_nodes.rogue_node:main

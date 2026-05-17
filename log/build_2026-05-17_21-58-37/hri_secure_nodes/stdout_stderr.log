@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing hri_secure_nodes.egg-info/PKG-INFO
+writing dependency_links to hri_secure_nodes.egg-info/dependency_links.txt
+writing entry points to hri_secure_nodes.egg-info/entry_points.txt
+writing requirements to hri_secure_nodes.egg-info/requires.txt
+writing top-level names to hri_secure_nodes.egg-info/top_level.txt
+reading manifest file 'hri_secure_nodes.egg-info/SOURCES.txt'
+writing manifest file 'hri_secure_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages/hri-secure-nodes.egg-link (link to .)
+Installing context_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+Installing emotion_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+Installing fusion_engine script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+Installing gesture_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+Installing motion_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+Installing rogue_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+
+Installed /home/tharun/secure_hri_ws/build/hri_secure_nodes
+running symlink_data
+creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/launch
+symbolically linking /home/tharun/secure_hri_ws/build/hri_secure_nodes/launch/baseline_demo.launch.py -> /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/launch
+symbolically linking /home/tharun/secure_hri_ws/build/hri_secure_nodes/launch/secure_demo.launch.py -> /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/launch

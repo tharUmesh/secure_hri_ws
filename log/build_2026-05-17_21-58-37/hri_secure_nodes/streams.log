@@ -1,0 +1,25 @@
+[2.151s] Invoking command in '/home/tharun/secure_hri_ws/build/hri_secure_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tharun/secure_hri_ws/build/hri_secure_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tharun/secure_hri_ws/build/hri_secure_nodes/build --no-deps symlink_data
+[2.818s] running develop
+[3.305s] running egg_info
+[3.459s] writing hri_secure_nodes.egg-info/PKG-INFO
+[3.508s] writing dependency_links to hri_secure_nodes.egg-info/dependency_links.txt
+[3.549s] writing entry points to hri_secure_nodes.egg-info/entry_points.txt
+[3.555s] writing requirements to hri_secure_nodes.egg-info/requires.txt
+[3.585s] writing top-level names to hri_secure_nodes.egg-info/top_level.txt
+[3.692s] reading manifest file 'hri_secure_nodes.egg-info/SOURCES.txt'
+[3.694s] writing manifest file 'hri_secure_nodes.egg-info/SOURCES.txt'
+[3.730s] running build_ext
+[3.731s] Creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages/hri-secure-nodes.egg-link (link to .)
+[3.734s] Installing context_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+[3.735s] Installing emotion_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+[3.736s] Installing fusion_engine script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+[3.736s] Installing gesture_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+[3.737s] Installing motion_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+[3.738s] Installing rogue_node script to /home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/hri_secure_nodes
+[3.739s] 
+[3.740s] Installed /home/tharun/secure_hri_ws/build/hri_secure_nodes
+[3.740s] running symlink_data
+[3.747s] creating /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/launch
+[3.747s] symbolically linking /home/tharun/secure_hri_ws/build/hri_secure_nodes/launch/baseline_demo.launch.py -> /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/launch
+[3.751s] symbolically linking /home/tharun/secure_hri_ws/build/hri_secure_nodes/launch/secure_demo.launch.py -> /home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/launch
+[3.824s] Invoked command in '/home/tharun/secure_hri_ws/build/hri_secure_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tharun/secure_hri_ws/build/hri_secure_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tharun/secure_hri_ws/build/hri_secure_nodes/build --no-deps symlink_data

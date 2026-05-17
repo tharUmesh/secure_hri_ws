@@ -1,0 +1,188 @@
+[0.618s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.618s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71feb68713a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71feb6871100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71feb6871100>>, mixin_verb=('build',))
+[0.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.833s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tharun/secure_hri_ws'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'ros'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extensions ['cmake', 'python']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'cmake'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'python'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extensions ['python_setup_py']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(keystore) by extension 'python_setup_py'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'ros'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extensions ['cmake', 'python']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'cmake'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'python'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extensions ['python_setup_py']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(policies) by extension 'python_setup_py'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extension 'ignore'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extension 'ignore_ament_install'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extensions ['colcon_pkg']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extension 'colcon_pkg'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extensions ['colcon_meta']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extension 'colcon_meta'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extensions ['ros']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/hri_secure_nodes) by extension 'ros'
+[0.934s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hri_secure_nodes' with type 'ros.ament_python' and name 'hri_secure_nodes'
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.996s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'cmake_args' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'cmake_target' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[1.060s] Level 5:colcon.colcon_core.verb:set package 'hri_secure_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.061s] DEBUG:colcon.colcon_core.verb:Building package 'hri_secure_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tharun/secure_hri_ws/build/hri_secure_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tharun/secure_hri_ws/install/hri_secure_nodes', 'merge_install': False, 'path': '/home/tharun/secure_hri_ws/src/hri_secure_nodes', 'symlink_install': True, 'test_result_base': None}
+[1.061s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.063s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tharun/secure_hri_ws/src/hri_secure_nodes' with build type 'ament_python'
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('hri_secure_nodes', 'ament_prefix_path')
+[1.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/hook/ament_prefix_path.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/hook/ament_prefix_path.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/hook/ament_prefix_path.sh'
+[1.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.505s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tharun/secure_hri_ws/src/hri_secure_nodes'
+[1.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tharun/secure_hri_ws/build/hri_secure_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tharun/secure_hri_ws/build/hri_secure_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tharun/secure_hri_ws/build/hri_secure_nodes/build --no-deps symlink_data
+[5.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('hri_secure_nodes', 'pythonpath_develop')
+[5.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tharun/secure_hri_ws/build/hri_secure_nodes/share/hri_secure_nodes/hook/pythonpath_develop.ps1'
+[5.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tharun/secure_hri_ws/build/hri_secure_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tharun/secure_hri_ws/build/hri_secure_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tharun/secure_hri_ws/build/hri_secure_nodes/build --no-deps symlink_data
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tharun/secure_hri_ws/build/hri_secure_nodes/share/hri_secure_nodes/hook/pythonpath_develop.dsv'
+[5.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tharun/secure_hri_ws/build/hri_secure_nodes/share/hri_secure_nodes/hook/pythonpath_develop.sh'
+[5.234s] Level 1:colcon.colcon_core.environment:checking '/home/tharun/secure_hri_ws/install/hri_secure_nodes' for CMake module files
+[5.235s] Level 1:colcon.colcon_core.environment:checking '/home/tharun/secure_hri_ws/install/hri_secure_nodes' for CMake config files
+[5.236s] Level 1:colcon.colcon_core.environment:checking '/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib'
+[5.237s] Level 1:colcon.colcon_core.environment:checking '/home/tharun/secure_hri_ws/install/hri_secure_nodes/bin'
+[5.237s] Level 1:colcon.colcon_core.environment:checking '/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/pkgconfig/hri_secure_nodes.pc'
+[5.238s] Level 1:colcon.colcon_core.environment:checking '/home/tharun/secure_hri_ws/install/hri_secure_nodes/lib/python3.12/site-packages'
+[5.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('hri_secure_nodes', 'pythonpath')
+[5.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/hook/pythonpath.ps1'
+[5.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/hook/pythonpath.dsv'
+[5.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/hook/pythonpath.sh'
+[5.242s] Level 1:colcon.colcon_core.environment:checking '/home/tharun/secure_hri_ws/install/hri_secure_nodes/bin'
+[5.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hri_secure_nodes)
+[5.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/package.ps1'
+[5.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/package.dsv'
+[5.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/package.sh'
+[5.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/package.bash'
+[5.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/hri_secure_nodes/package.zsh'
+[5.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tharun/secure_hri_ws/install/hri_secure_nodes/share/colcon-core/packages/hri_secure_nodes)
+[5.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.270s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.369s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.617s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.618s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tharun/secure_hri_ws/install/local_setup.ps1'
+[5.621s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tharun/secure_hri_ws/install/_local_setup_util_ps1.py'
+[5.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tharun/secure_hri_ws/install/setup.ps1'
+[5.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tharun/secure_hri_ws/install/local_setup.sh'
+[5.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tharun/secure_hri_ws/install/_local_setup_util_sh.py'
+[5.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tharun/secure_hri_ws/install/setup.sh'
+[5.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tharun/secure_hri_ws/install/local_setup.bash'
+[5.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tharun/secure_hri_ws/install/setup.bash'
+[5.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tharun/secure_hri_ws/install/local_setup.zsh'
+[5.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tharun/secure_hri_ws/install/setup.zsh'
